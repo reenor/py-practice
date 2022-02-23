@@ -104,7 +104,7 @@ source ./venv-py-practice/bin/activate
 ```
 > For more details, refer to [this](https://realpython.com/python-virtual-environments-a-primer/)
 
-3. Install all packages according to the configuration file `requirements.txt`
+3. Install all packages that the project needs according to the configuration file `requirements.txt`
 ```
 pip install -r requirements.txt
 ```

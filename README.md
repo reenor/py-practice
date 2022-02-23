@@ -58,24 +58,24 @@ echo '\neval "$(pyenv init -)"' >> ~/.zshrc
 
 ## Python installation
 
-Now let's install the latest Python version (3.10.2 as of this writting) using the `pyenv` tool
+1. Now let's install the latest Python version (3.10.2 as of this writting) using the `pyenv` tool
 
 ```
-$ pyenv install 3.10.2
+pyenv install 3.10.2
 ```
 
-And then switch current Python version to 3.10.2 as follows:
+2. And then switch current Python version to 3.10.2 as follows:
 ```
-$ pyenv global 3.10.2
-```
-
-To verify if the current Python version is 3.10.2 or not, run the following command:
-
-```
-$ pyenv version
+pyenv global 3.10.2
 ```
 
-To fix `brew doctor`'s warning that is **"config" scripts exist outside your system or Homebrew directories**, add the following line into `~/.zshrc`:
+>To verify if the current Python version is 3.10.2 or not, run the following command:
+
+>```
+>pyenv version
+>```
+
+3. To fix `brew doctor`'s warning that is **"config" scripts exist outside your system or Homebrew directories**, add the following line into `~/.zshrc`:
 >For more details, refer to [this](https://github.com/pyenv/pyenv#homebrew-in-macos)
 
 ```

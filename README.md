@@ -1,7 +1,12 @@
 # General setting up on MacOS
 
 ## Zsh installation
-It's recommended to use `Zsh` over `Bash`
+It's recommended to use `Zsh` over `Bash`. Fortunately, Zsh is the default shell in my MacOs.
+
+To check your account's default shell, simply run the following command:
+```
+echo $SHELL
+```
 
 ## GCC installation
 

@@ -1,5 +1,8 @@
 # General setting up on MacOS
 
+## Zsh installation
+It's recommended to use `Zsh` over `Bash`
+
 ## GCC installation
 
 Python install will require a GCC installation, and Xcode includes command line development tools such as gcc and friends, so we need to install Xcode as follows:
@@ -44,14 +47,13 @@ brew install pyenv
 
 2. Configure your shell's environment for Pyenv as follows (**zsh** for me):
 
->For more details, refer to [this](https://github.com/pyenv/pyenv#basic-github-checkout)
-
 ```
 echo '\neval "$(pyenv init --path)"' >> ~/.zprofile
 ```
 ```
 echo '\neval "$(pyenv init -)"' >> ~/.zshrc
 ```
+>For more details, refer to [this](https://github.com/pyenv/pyenv#basic-github-checkout)
 
 3. Restart terminal windows for changes to take effect
 
@@ -72,11 +74,11 @@ pyenv global 3.10.2
 >To verify if the current Python version is 3.10.2 or not, run the following command: `pyenv version`
 
 3. To fix `brew doctor`'s warning that is **"config" scripts exist outside your system or Homebrew directories**, add the following line into `~/.zshrc`:
->For more details, refer to [this](https://github.com/pyenv/pyenv#homebrew-in-macos)
 
 ```
 alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 ```
+>For more details, refer to [this](https://github.com/pyenv/pyenv#homebrew-in-macos)
 
 
 

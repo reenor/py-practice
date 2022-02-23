@@ -1,4 +1,4 @@
-# Setup for MacOS
+# General setting up on MacOS
 
 ## GCC installation
 
@@ -18,6 +18,20 @@ To install Homebrew, run the following command:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+## Git and VS Code installation
+
+```
+brew install git
+```
+```
+brew install --cask visual-studio-code
+```
+```
+brew doctor
+```
+
+# Setting up for the Python development environment
+
 ## Pyenv installation
 
 This tool lets us switch easily between multiple versions of Python in our machine.
@@ -28,7 +42,9 @@ This tool lets us switch easily between multiple versions of Python in our machi
 brew install pyenv
 ```
 
-2. Configure your shell's environment for Pyenv as follows:
+2. Configure your shell's environment for Pyenv as follows (**zsh** for me):
+
+>For more details, refer to [this](https://github.com/pyenv/pyenv#basic-github-checkout)
 
 ```
 echo '\neval "$(pyenv init --path)"' >> ~/.zprofile
@@ -39,7 +55,6 @@ echo '\neval "$(pyenv init -)"' >> ~/.zshrc
 
 3. Restart terminal windows for changes to take effect
 
->For more details, [see](https://github.com/pyenv/pyenv#basic-github-checkout)
 
 ## Python installation
 

@@ -1,9 +1,11 @@
 # General setting up on MacOS
 
 ## Zsh installation
+
 It's recommended to use `Zsh` over `Bash`. Fortunately, Zsh is the default shell in my MacOs.
 
 To check your account's default shell, simply run the following command:
+
 ```
 echo $SHELL
 ```
@@ -25,6 +27,7 @@ To install Homebrew, run the following command:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+> For more details, refer to [this](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-homebrew-on-macos)
 
 ## Git and VS Code installation
 

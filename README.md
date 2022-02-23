@@ -88,7 +88,26 @@ alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 ```
 >For more details, refer to [this](https://github.com/pyenv/pyenv#homebrew-in-macos)
 
+# Setting up for this project only
 
+1. Navigate to the directory of this project and then create a new python virtual environment named `venv-py-practice`
+```
+cd ~/Projects/py-practice
+```
+```
+python -m venv venv-py-practice
+```
 
+2. In order to use this environment, we have to 'activate' it, to do this, run the following:
+```
+source ./venv-py-practice/bin/activate
+```
+> For more details, refer to [this](https://realpython.com/python-virtual-environments-a-primer/)
+
+3. Install all packages according to the configuration file `requirements.txt`
+```
+pip install -r requirements.txt
+```
+> For more details, refer to [this](https://note.nkmk.me/en/python-pip-install-requirements/)
 
 

@@ -1,0 +1,9 @@
+data=[1,2,3,4,5]
+print(data)
+begin=0
+end=len(data)-1
+while(begin<end):
+    data[begin],data[end]=data[end],data[begin]
+    begin+=1
+    end-=1
+print(data)

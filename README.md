@@ -39,6 +39,8 @@ echo '\neval "$(pyenv init -)"' >> ~/.zshrc
 
 3. Restart terminal windows for changes to take effect
 
+>For more details, [see](https://github.com/pyenv/pyenv#basic-github-checkout)
+
 ## Python installation
 
 Now let's install the latest Python version (3.10.2 as of this writting) using the `pyenv` tool

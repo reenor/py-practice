@@ -18,7 +18,14 @@ To install Homebrew, run the following command:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## 
+## pyenv installation
+
+This tool lets us switch easily between multiple versions of Python in our machine.
+To install it, Homebrew
+
+```
+brew install pyenv
+```
 
 
 

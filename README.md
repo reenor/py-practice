@@ -32,7 +32,8 @@ brew install pyenv
 
 ```
 echo '\neval "$(pyenv init --path)"' >> ~/.zprofile
-
+```
+```
 echo '\neval "$(pyenv init -)"' >> ~/.zshrc
 ```
 

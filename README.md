@@ -69,11 +69,7 @@ pyenv install 3.10.2
 pyenv global 3.10.2
 ```
 
->To verify if the current Python version is 3.10.2 or not, run the following command:
-
->```
->pyenv version
->```
+>To verify if the current Python version is 3.10.2 or not, run the following command: `pyenv version`
 
 3. To fix `brew doctor`'s warning that is **"config" scripts exist outside your system or Homebrew directories**, add the following line into `~/.zshrc`:
 >For more details, refer to [this](https://github.com/pyenv/pyenv#homebrew-in-macos)
